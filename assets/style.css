@@ -321,11 +321,5 @@ a {
         flex: 0 30%;
         justify-content: center;
     }
-    
-    header nav ul li a {
-        padding: 10px 30px;
-        font-size: 1.70vw;
-        font-weight: bold;
-    }
-    
+        
 }
