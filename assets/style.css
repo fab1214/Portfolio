@@ -149,17 +149,16 @@ a {
     text-decoration: none;
 }
 .sub-header {
+    display: flex;
     background-image: url("../assets/images/unnamed.jpeg");
     background-size: cover;
     background-position: 80%;
     height: 50%;
-    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
 .sub-header h2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 100%;
     font-size: 60px;
     color: white;
@@ -167,21 +166,32 @@ a {
 
 .flex-container {
     display: flex;
-    flex-wrap: wrap;
     margin: 30px;
     background-color: rgba( 255, 255, 255, 0.4);
+    width: 100%;
+}
+
+
+.main-content p {
+    line-height: 2em;
 }
 
 .main-content,
 .contact-info {
     flex: 1;
-    height: 5em;
     margin: 10px;
 }
 
+.contact-info {
+    height: 5em;
+}
+
 .fab-img {
-    display: flex;
-    width: 30%;
+    width: auto;
+    padding: 15px;
+}
+
+.main-content p {
     flex-wrap: wrap;
 }
 
@@ -197,14 +207,27 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+}
+
+.contact-info p:hover {
+    transform: scale(1.2);
 }
 
 .flex-img {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    width: 70%;
+    padding: 20px;
+}
+
+.single-img {
+    padding: 0 20px;
+}
+.single-img p {
+    padding: 10px 5px;
+    text-align: center; 
+}
+
+.single-img:hover {
+    transform: scale(1.1);
 }
 
