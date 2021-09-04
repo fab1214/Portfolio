@@ -321,6 +321,10 @@ a {
         flex: 0 30%;
         justify-content: center;
     }
-
+    
+    header nav ul {
+        margin-top: 20px;
+        justify-content: center;
+    }
 
 }
