@@ -196,9 +196,9 @@ a {
     padding: 15px;
 }
 
-.main-content p {
+.main-text {
     flex-wrap: wrap;
-    line-height: 2em;
+    font-size: 12px;
 }
 
 .sidebar {
